@@ -1,7 +1,7 @@
-package createRoom
+package rest.createRoom
 
-import core.CommonResponse
-import model.RoomInfo
+import rest.core.CommonResponse
+import rest.model.RoomInfo
 
 class CreateRoomResponse : CommonResponse<CreateRoomResponse.ResponseBody>() {
     class ResponseBody(

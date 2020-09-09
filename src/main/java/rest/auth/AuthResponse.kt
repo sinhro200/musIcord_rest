@@ -1,7 +1,7 @@
-package auth
+package rest.auth
 
-import core.CommonResponse
-import model.UserInfo
+import rest.core.CommonResponse
+import rest.model.UserInfo
 
 class AuthResponse : CommonResponse<AuthResponse.ResponseBody>() {
     class ResponseBody(

@@ -1,4 +1,4 @@
-package core
+package rest.core
 
 open class CommonResponse<T>(
         var error: String? = null,

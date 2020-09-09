@@ -1,4 +1,4 @@
-package model
+package rest.model
 
 class RoomInfo (
         private val title: String? = null,

@@ -1,7 +1,7 @@
-package orderSongFromLink
+package rest.orderSongFromLink
 
-import core.CommonResponse
-import model.SongInfo
+import rest.core.CommonResponse
+import rest.model.SongInfo
 
 class OrderSongFromLinkResponse : CommonResponse<OrderSongFromLinkResponse.ResponseBody>() {
     class ResponseBody(

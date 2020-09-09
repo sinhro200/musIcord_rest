@@ -1,6 +1,6 @@
-package getPlaylist
+package rest.getPlaylist
 
-import core.CommonRequest
+import rest.core.CommonRequest
 
 class GetPlaylistRequest : CommonRequest<GetPlaylistRequest.Data>() {
     class Data(

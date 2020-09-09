@@ -1,6 +1,6 @@
-package createRoom
+package rest.createRoom
 
-import core.CommonRequest
+import rest.core.CommonRequest
 
 class CreateRoomRequest : CommonRequest<CreateRoomRequest.Data>() {
     class Data(

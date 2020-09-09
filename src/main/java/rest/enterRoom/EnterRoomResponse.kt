@@ -1,7 +1,7 @@
-package enterRoom
+package rest.enterRoom
 
-import core.CommonResponse
-import model.RoomInfo
+import rest.core.CommonResponse
+import rest.model.RoomInfo
 
 class EnterRoomResponse : CommonResponse<EnterRoomResponse.ResponseBody>() {
     class ResponseBody(

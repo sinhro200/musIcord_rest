@@ -1,6 +1,6 @@
-package enterRoom
+package rest.enterRoom
 
-import core.CommonRequest
+import rest.core.CommonRequest
 
 class EnterRoomRequest : CommonRequest<EnterRoomRequest.Data>() {
     class Data(

@@ -1,6 +1,6 @@
-package register
+package rest.register
 
-import core.CommonRequest
+import rest.core.CommonRequest
 
 class RegistrationRequest : CommonRequest<RegistrationRequest.Data>() {
     class Data(

@@ -1,4 +1,4 @@
-package model
+package rest.model
 
 class SongInfo (
         private val name: String? = null,

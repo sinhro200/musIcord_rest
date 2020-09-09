@@ -1,6 +1,6 @@
-package orderSongFromLink
+package rest.orderSongFromLink
 
-import core.CommonRequest
+import rest.core.CommonRequest
 
 class OrderSongFromLinkRequest : CommonRequest<OrderSongFromLinkRequest.Data>() {
     class Data(

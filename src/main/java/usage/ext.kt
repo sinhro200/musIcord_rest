@@ -1,6 +1,6 @@
 package usage
 
-import register.RegistrationRequest
+import rest.register.RegistrationRequest
 
 fun RegistrationRequest.sas(){
 

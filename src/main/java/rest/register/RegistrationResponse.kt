@@ -1,6 +1,6 @@
-package register
+package rest.register
 
-import core.CommonResponse
+import rest.core.CommonResponse
 
 class RegistrationResponse : CommonResponse<RegistrationResponse.ResponseBody>() {
     class ResponseBody(

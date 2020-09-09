@@ -1,7 +1,7 @@
-package getPlaylist
+package rest.getPlaylist
 
-import core.CommonResponse
-import model.SongInfo
+import rest.core.CommonResponse
+import rest.model.SongInfo
 
 class GetPlaylistResponse : CommonResponse<GetPlaylistResponse.ResponseBody>() {
     class ResponseBody(

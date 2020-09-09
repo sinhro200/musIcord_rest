@@ -1,12 +1,12 @@
 package usage
 
-import auth.AuthResponse
+import rest.auth.AuthResponse
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ObjectNode
-import core.CommonRequest
-import createRoom.CreateRoomResponse
-import register.RegistrationRequest
+import rest.core.CommonRequest
+import rest.createRoom.CreateRoomResponse
+import rest.register.RegistrationRequest
 
 class Main {
     private fun test() {

@@ -1,6 +1,6 @@
-package auth
+package rest.auth
 
-import core.CommonRequest
+import rest.core.CommonRequest
 
 class AuthRequest : CommonRequest<AuthRequest.Data>() {
     class Data(
