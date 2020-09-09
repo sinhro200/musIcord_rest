@@ -7,4 +7,6 @@ class UserInfo(
         private val first_name: String? = null,
         private val last_name: String? = null,
         private val nickname: String? = null
-)
+){
+    companion object
+}

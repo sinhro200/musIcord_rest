@@ -23,6 +23,7 @@ class Main {
         val rr = RegistrationRequest()
         val ae = AuthResponse()
         ae.response = AuthResponse.ResponseBody()
+//        RegistrationRequest.Companion
         //        rr.sas();
 //        crr.response = new CreateRoomResponse.Resp();
     }

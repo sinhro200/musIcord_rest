@@ -7,4 +7,5 @@ class GetPlaylistRequest : CommonRequest<GetPlaylistRequest.Data>() {
             private val roomToken: String? = null,
             private val fromTime: Long? = null
     )
+    companion object
 }

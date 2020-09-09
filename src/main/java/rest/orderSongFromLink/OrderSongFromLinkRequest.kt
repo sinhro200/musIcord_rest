@@ -7,4 +7,5 @@ class OrderSongFromLinkRequest : CommonRequest<OrderSongFromLinkRequest.Data>() 
             private val roomToken: String? = null,
             private val songLink: String? = null
     )
+    companion object
 }

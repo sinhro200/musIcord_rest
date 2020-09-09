@@ -7,4 +7,5 @@ class CreateRoomResponse : CommonResponse<CreateRoomResponse.ResponseBody>() {
     class ResponseBody(
             var roomInfo: RoomInfo? = null
     )
+    companion object
 }

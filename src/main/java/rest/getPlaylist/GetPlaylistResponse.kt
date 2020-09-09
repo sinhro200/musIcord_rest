@@ -8,4 +8,5 @@ class GetPlaylistResponse : CommonResponse<GetPlaylistResponse.ResponseBody>() {
             private val playlist: List<SongInfo>? = null,
             private val updatedTimeTimestamp: Long? = null
     )
+    companion object
 }

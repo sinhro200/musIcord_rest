@@ -5,4 +5,6 @@ class SongInfo (
         private val artist: String? = null,
         private val link: String? = null,
         private val duration:Int? = null
-)
+){
+    companion object
+}

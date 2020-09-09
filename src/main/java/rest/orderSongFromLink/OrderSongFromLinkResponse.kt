@@ -7,4 +7,5 @@ class OrderSongFromLinkResponse : CommonResponse<OrderSongFromLinkResponse.Respo
     class ResponseBody(
             var songInfo: SongInfo? = null
     )
+    companion object
 }

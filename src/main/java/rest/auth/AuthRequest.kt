@@ -7,4 +7,6 @@ class AuthRequest : CommonRequest<AuthRequest.Data>() {
             var login: String? = null,
             var password: String? = null
     )
+
+    companion object
 }

@@ -9,4 +9,5 @@ class RegistrationRequest : CommonRequest<RegistrationRequest.Data>() {
             private val nickname: String? = null,
             private val email: String? = null
     )
+    companion object
 }

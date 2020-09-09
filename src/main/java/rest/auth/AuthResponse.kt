@@ -8,4 +8,6 @@ class AuthResponse : CommonResponse<AuthResponse.ResponseBody>() {
             var userInfo: UserInfo? = null,
             var accessToken: String? = null
     )
+
+    companion object
 }
