@@ -1,5 +1,6 @@
 package usage
 
+import auth.AuthResponse
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ObjectNode
@@ -20,6 +21,8 @@ class Main {
     fun test2() {
         val crr = CreateRoomResponse()
         val rr = RegistrationRequest()
+        val ae = AuthResponse()
+        ae.response = AuthResponse.Response()
         //        rr.sas();
 //        crr.response = new CreateRoomResponse.Resp();
     }
