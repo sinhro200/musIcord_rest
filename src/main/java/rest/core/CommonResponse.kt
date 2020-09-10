@@ -1,6 +1,6 @@
 package rest.core
 
-open class CommonResponse<T>(
+open class CommonResponse<T : Any>(
         var responseBody: T? = null,
         var error: CommonError? = null
 ){
