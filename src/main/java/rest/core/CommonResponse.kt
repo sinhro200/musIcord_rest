@@ -23,10 +23,5 @@ open class CommonResponse<T : Any>(
         }
     }
 
-    class CommonError(
-            var message: String? = null,
-            var description: String? = null,
-            var UIMessage: String? = null,
-            extra:Any? = null
-    )
+
 }
