@@ -4,9 +4,9 @@ import rest.auth.AuthResponse
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ObjectNode
-import rest.core.CommonRequest
 import rest.createRoom.CreateRoomResponse
 import rest.register.RegistrationRequest
+import rest.register.RegistrationResponse
 
 class Main {
     private fun test() {
@@ -18,6 +18,8 @@ class Main {
         rr.data?.login = "asd"
 
         val jsonNode: JsonNode = mapper.valueToTree(rr)
+
+//        val rresp = RegistrationResponse().makeError()
 //        on.set<>() .set("response", jsonNode)
         System.out.println(jsonNode)
     }
