@@ -1,5 +1,8 @@
 package rest.core
 
-open class CommonRequest<T>(var data: T? = null){
+open class CommonRequest<T>(
+        var data: T? = null,
+        var lang: Language? = null
+) {
     companion object
 }
