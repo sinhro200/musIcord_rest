@@ -1,9 +1,14 @@
 package rest.core
 
 open class CommonResponse<T>(
-        var error: String? = null,
-        var errorDescription: String? = null,
-        var response: T? = null
-){
+        var responseBody: T? = null,
+        var error: CommonError? = null
+) {
     companion object
+
+    class CommonError(
+            var message: String? = null,
+            var description: String? = null,
+            var UIMessage: String? = null
+    )
 }
