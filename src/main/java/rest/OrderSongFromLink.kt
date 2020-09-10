@@ -7,6 +7,6 @@ class OrderSongFromLinkReqData(
         var songLink: String? = null
 )
 
-class RespBody(
+class OrderSongFromLinkRespBody(
         var songInfo: SongInfo? = null
 )
