@@ -12,17 +12,21 @@ class Main {
     private fun test() {
         val mapper = ObjectMapper()
         val on: ObjectNode = mapper.createObjectNode()
-        val commonRequest: CommonRequest<*> = CommonRequest<Any?>()
-        val jsonNode: JsonNode = mapper.valueToTree(commonRequest)
+
+        val rr = RegistrationRequest()
+        rr.data = RegistrationRequest.Data()
+        rr.data?.login = "asd"
+
+        val jsonNode: JsonNode = mapper.valueToTree(rr)
 //        on.set<>() .set("response", jsonNode)
-        System.out.println(on.toString())
+        System.out.println(jsonNode)
     }
 
     fun test2() {
         val crr = CreateRoomResponse()
         val rr = RegistrationRequest()
         val ae = AuthResponse()
-        ae.response = AuthResponse.ResponseBody()
+        ae.responseBody = AuthResponse.ResponseBody()
 //        RegistrationRequest.Companion
         //        rr.sas();
 //        crr.response = new CreateRoomResponse.Resp();
