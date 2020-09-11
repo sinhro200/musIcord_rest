@@ -2,5 +2,12 @@ package rest.core
 
 enum class Language {
     RU,
-    EN
+    EN;
+
+
+    companion object{
+        fun default(): Language {
+            return Language.RU
+        }
+    }
 }
