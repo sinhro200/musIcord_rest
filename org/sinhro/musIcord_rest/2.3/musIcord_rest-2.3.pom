@@ -9,7 +9,7 @@
     <version>2.3</version>
 
     <properties>
-        <kotlin.version>1.4.10</kotlin.version>
+        <kotlin.version>1.3.71</kotlin.version>
 
         <java.version>8</java.version>
         <github.global.server>github</github.global.server>
