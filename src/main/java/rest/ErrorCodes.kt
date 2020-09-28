@@ -41,6 +41,7 @@ enum class ErrorCodes(
     //SongFinderNE
     NIMUSC_SONG_FINDER_SONGS_NOT_FOUND(2060),
     ;
+    companion object{}
 
     public fun toErrorCode(errCode : Int) : ErrorCodes{
         return values().asList().stream().filter{it.code == errCode}.findFirst().get()
