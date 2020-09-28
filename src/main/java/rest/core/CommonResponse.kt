@@ -6,12 +6,13 @@ open class CommonResponse<T : Any>(
 ){
     companion object{
         fun buildError(
+                code:Int,
                 message: String,
                 description: String? = null,
                 uiMessage: String? = null,
                 extra:Any? = null
         ): CommonResponse<Any> {
-            return CommonResponse(error = CommonError(message, description,uiMessage,extra))
+            return CommonResponse(error = CommonError(code,message, description,uiMessage,extra))
         }
 
         fun <T : Any>buildSuccess(
