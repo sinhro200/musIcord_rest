@@ -3,6 +3,7 @@ package usage
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ObjectNode
+import rest.ErrorCodes
 import rest.request_response.RegisterRespBody
 import rest.core.CommonResponse
 
@@ -11,7 +12,7 @@ class Main {
         val mapper = ObjectMapper()
         val on: ObjectNode = mapper.createObjectNode()
 
-        var cr:CommonResponse<Any> = CommonResponse.buildError(Int.MAX_VALUE,"asd")
+        var cr:CommonResponse<Any> = CommonResponse.buildError(ErrorCodes.SERVER_EXC,"asd")
         cr = CommonResponse.buildSuccess(RegisterRespBody("success"))
 
 
