@@ -19,6 +19,8 @@ enum class ErrorCodes(
      * Nimusc exception codes :
      */
 //CommonNE
+    NIMUSC_GENERAL_EXC(2000),
+
     NIMUSC_COMMON_WRONG_HTTP_URL_PARAMETERS(2001),
     NIMUSC_COMMON_ERR_WHILE_SENDING_REQUEST(2002),
     NIMUSC_COMMON_ERR_IN_RESPONSE(2003),
