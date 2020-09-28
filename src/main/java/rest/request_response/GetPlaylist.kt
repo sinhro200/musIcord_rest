@@ -1,4 +1,4 @@
-package rest
+package rest.request_response
 
 import rest.model.SongInfo
 import rest.model.UserInfo
