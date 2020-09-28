@@ -7,5 +7,5 @@ public val ERROR_CODE_MUSIC_SERVICE_EXC = 3
 public val ERROR_CODE_NETWORK_TIMEOUT = 4
 
 public fun buildErrorCode(MAIN_ERROR_CODE : Int, addErrCode : Int) =
-        (ERROR_CODE_NIMUSC_EXC.toString() + addErrCode).toInt()
+        (MAIN_ERROR_CODE.toString() + addErrCode).toInt()
 
