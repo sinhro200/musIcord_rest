@@ -1,18 +1,19 @@
 package rest.core
 
+import rest.ErrorCodes
+
 open class CommonResponse<T : Any>(
         var responseBody: T? = null,
         var error: CommonError? = null
 ){
     companion object{
         fun buildError(
-                code:Int,
+                code:ErrorCodes,
                 message: String,
                 description: String? = null,
-                uiMessage: String? = null,
                 extra:Any? = null
         ): CommonResponse<Any> {
-            return CommonResponse(error = CommonError(code,message, description,uiMessage,extra))
+            return CommonResponse(error = CommonError(code,message, description,extra))
         }
 
         fun <T : Any>buildSuccess(
