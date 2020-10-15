@@ -15,6 +15,8 @@ enum class ErrorCodes(
     AUTH_USER_NOT_FOUND(5010),
     AUTH_PASSWORD_INCORRECT(5011),
     AUTH_USER_NOT_VERIFIED(5012),
+    AUTH_JWT_EXPIRED(5013),
+    AUTH_JWT_INVALID(5014),
 
     /**
      * Nimusc exception codes :

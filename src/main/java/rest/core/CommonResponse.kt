@@ -6,7 +6,7 @@ open class CommonResponse<T : Any>(
         var responseBody: T? = null,
         var error: CommonError? = null
 ){
-    companion object{
+    public companion object{
         fun buildError(
                 code:ErrorCodes,
                 message: String,
