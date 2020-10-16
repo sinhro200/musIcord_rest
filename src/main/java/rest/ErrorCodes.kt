@@ -10,6 +10,7 @@ enum class ErrorCodes(
     SMTH_WENT_WRONG(1004),
     NET_CONNECTION_ERR(1005),
 
+    //business
     REGISTER_USER_ALREDY_EXIST(5000),
     REGISTER_EMAIL_ALREADY_USED(5001),
     AUTH_USER_NOT_FOUND(5010),
@@ -17,6 +18,8 @@ enum class ErrorCodes(
     AUTH_USER_NOT_VERIFIED(5012),
     AUTH_JWT_EXPIRED(5013),
     AUTH_JWT_INVALID(5014),
+
+    ROOM_NOT_FOUND(5100),
 
     /**
      * Nimusc exception codes :
